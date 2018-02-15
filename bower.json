@@ -1,0 +1,46 @@
+{
+  "name": "widget-slides",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Rise-Vision/widget-slides",
+  "authors": [
+    "Rise Vision"
+  ],
+  "description": "Rise Vision Widget Slides",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "risevision",
+    "ui",
+    "widget",
+    "web page"
+  ],
+  "license": "GPLv3",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "src/components",
+    "test",
+    "reports"
+  ],
+  "devDependencies": {
+    "angular-mocks": "~1.3.0",
+    "web-component-tester": "*"
+  },
+  "dependencies": {
+    "angular": "~1.3.0",
+    "angular-bootstrap": "^0.13.0",
+    "rv-common-i18n": "https://github.com/Rise-Vision/common-i18n.git#1.3.61",
+    "rv-common-style": "https://github.com/Rise-Vision/common-style.git#v1.3.65",
+    "google-drive-picker": "https://github.com/Rise-Vision/component-google-drive-picker.git#0.1.1",
+    "widget-common": "https://github.com/Rise-Vision/widget-common.git#3.2.2",
+    "widget-settings-ui-core": "https://github.com/Rise-Vision/widget-settings-ui-core.git#0.4.3",
+    "widget-settings-ui-components": "https://github.com/Rise-Vision/widget-settings-ui-components.git#3.2.2"
+  },
+  "resolutions": {
+    "angular": "~1.3.0",
+    "angular-mocks": "~1.3.0",
+    "jquery": "~2.1.4"
+  }
+}

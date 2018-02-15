@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web Page Widget</title>
+
+  <!-- build:css css/webpage.min.css -->
+  <link rel="stylesheet" href="widget/css/slide.css">
+  <link rel="stylesheet" href="components/widget-common/dist/css/message.css">
+  <!-- endbuild -->
+
+</head>
+<body>
+
+  <div id="container">
+    <div class="blocker"></div>
+  </div>
+
+  <div id="messageContainer"></div>
+
+  <!-- build:e2egadgets -->
+  <script src="//rvashow2.appspot.com/gadgets/gadgets.min.js"></script>
+  <!-- endbuild -->
+
+  <!-- build:js js/widget.min.js -->
+  <script src="components/widget-common/dist/config.js"></script>
+  <script src="components/widget-common/dist/logger.js"></script>
+  <script src="components/widget-common/dist/common.js"></script>
+  <script src="config/config.js"></script>
+  <script src="widget/slide.js"></script>
+  <script src="components/widget-common/dist/message.js"></script>
+  <script src="widget/main.js"></script>
+  <script src="widget/analytics.js"></script>
+  <!-- endbuild -->
+</body>
+</html>
